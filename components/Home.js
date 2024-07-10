@@ -38,7 +38,7 @@ function Home() {
   );
 
   useEffect(() => {
-    fetch("http://localhost:3000/movies")
+    fetch("https://mymoviz-part5-backend-zeta.vercel.app/")
       .then((response) => response.json())
       .then((data) => {
         const posterSecureBaseUrl = "https://image.tmdb.org/t/p/";
